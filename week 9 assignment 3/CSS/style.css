@@ -1,0 +1,101 @@
+body {
+    background-image:url("../img/movie image bg.jpg");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color:#c6af0f;
+}
+/*header styling*/
+header{
+    height:125px;
+    width: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    align-items: center;
+}
+
+header div img{
+    height: 60px;
+    width: 195px;
+}
+.producer {
+    justify-content: center;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    color: #c6af0f;
+}
+.producer p{
+   font-size: 25px;
+}
+
+.producer2 pre{
+    justify-content: center;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+}
+ i{
+    position: absolute;
+    top:30px;
+}
+/*targeting the image in main*/
+main div img{
+    height: 330px;
+    width: auto;
+
+}
+.text-container{
+    display:inline-block;
+
+}
+ main .text-container p{
+    font-size: 93px;
+    color:#ffffff;
+    font-weight: 100;
+    font-family: "Arial","Roboto", sans-serif;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+/*footer styling*/
+footer{
+    margin-bottom: 0;
+    display: flex;
+    flex-grow: 3;
+}
+.footer-logo{
+    height:100px;
+    width:100px;
+    margin-right: 421px;
+}
+.footer-logo img{
+    height:100% ;
+    width:auto;
+}
+footer pre{
+    font-size: 10px;
+    font-weight: bolder;
+    display: inline;
+    font-family: "Arsenal SC", sans-serif;
+    font-style: normal;
+}
+.small{
+   
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-container ul li{
+    font-size: 6em;
+    list-style-type: none;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    letter-spacing:2px;
+    padding-left: 30px;
+}
